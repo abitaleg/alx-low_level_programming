@@ -2,8 +2,8 @@
 #include <stdio.h>
 /*
  *main - block
- * Description: puts file
- * return 0
+ *description: puts file
+ *return 0
  */
 int main(void)
 	{
