@@ -12,8 +12,8 @@ int main(void)
 	printf("%lu\n", sizeof(char));
 	printf("%lu\n", sizeof(int));
 	printf("%lu\n", sizeof(float));
-	printf("%lu", sizeof(long));
-	printf("%lu", sizeof(long long));
+	printf("%lu\n", sizeof(long));
+	printf("%llu\n", sizeof(long long));
 	return (0);
 }
 
