@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- *2-print_alphabet_x10.c - it prints lower case alphabet x10
- *@void: comparer the charcters
+ * print_alphabet_x10 - check the code
  */
 
 void print_alphabet_x10(void)
