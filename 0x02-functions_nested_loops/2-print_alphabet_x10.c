@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * 2-print_alphabet_x10.c - it prints lower case alphabet x10
- *
+ *2-print_alphabet_x10.c - it prints lower case alphabet x10
+ *@void: comparer the charcters
  */
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 
-	{
-		int i;
-		int x;
+{
+	int i;
+	int x;
 
 		for (x = 0; x < 10; x++)
 
@@ -20,4 +20,4 @@ void print_alphabet_x10(void);
 			}
 			_putchar('\n');
 		}
-	}
+}
