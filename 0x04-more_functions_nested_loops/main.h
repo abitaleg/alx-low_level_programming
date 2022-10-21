@@ -28,6 +28,7 @@ void print_square(int size);
 
 void print_triangle(int size);
 
-int _putchart(char c);
+int _putchar(char c);
+
 
 #endif /* MAIN_H */
