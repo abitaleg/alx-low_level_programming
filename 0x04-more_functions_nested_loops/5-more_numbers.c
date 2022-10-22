@@ -1,4 +1,4 @@
-#include "ain.h"
+#include "main.h"
 
 /**
  *more_numbers -> prints more number
@@ -12,7 +12,7 @@ void more_numbers(void)
 	{
 		for (b = 0; b < 15; b++)
 		{
-			_putchar(y + '0');
+			_putchar(b + '0');
 		}
 		_putchar('\n');
 	}
