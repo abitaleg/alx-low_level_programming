@@ -5,6 +5,7 @@
  *@n:pointer to be update
  */
 
-void reset_to_98(int *n)i
+void reset_to_98(int *n)
 {
 	*n = 98;
+}
