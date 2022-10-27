@@ -3,7 +3,7 @@
  * *_strcat ->the function  stract
  * @dest: first parameter
  * @src: second parameter
- * Return:acharacter
+ * Return:string
  */
 char *_strcat(char *dest, char *src)
 {
