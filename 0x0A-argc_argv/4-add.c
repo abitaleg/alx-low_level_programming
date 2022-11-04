@@ -17,8 +17,8 @@ int main(int argc, char *argv[])
 				if (argv[i][j] > '9' || argv[i][j] < '0')
 				{
 					printf("%s\n", "Error");
+					return (1);
 				}
-				return (1);
 			}
 		}
 		for (k = 1; k < argc; k++)
@@ -26,6 +26,6 @@ int main(int argc, char *argv[])
 			num = atoi(argv[k]);
 			result += num;
 		}
-		printf("%d\n", num);
+		printf("%d\n", result);
 		return (0);
 }
